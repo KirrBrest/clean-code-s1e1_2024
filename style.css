@@ -16,11 +16,11 @@
     text-align: right;
   }
 
-  .hero-img {
+  .hero_img {
     width: 100%;
   }
 
-  .hero__more_inf {
+  .hero_more-inf {
     font-family: fantasy, cursive;
   }
   
@@ -42,11 +42,11 @@
     flex-grow: 1;
   }
 
-  .add-item__wrapper {
+  .item_add-button__wrapper {
     display: flex;
   }
   
-  .add-item {
+  .item__add {
     margin: 32px 0 0;
   }
 
@@ -80,7 +80,7 @@
   }
 
   /* Heading */
-  .item-name { 
+  .item_name { 
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -90,7 +90,7 @@
     text-transform: uppercase;
   }
 
-  .input-text {
+  .input_text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -108,12 +108,12 @@
   }
   
   /* New Task */
-  .add-item-name {
+  .item_name__add {
     display: block;
     margin: 0 0 20px;
   }
 
-  .add-item__task {
+  .item_task__add {
     width: 318px;
   }
   
@@ -131,47 +131,48 @@
     vertical-align: middle;
   }
 
-  .items-block__checkbox {
+  .items-block_checkbox {
     margin: 0 10px;
   }
 
-  .items-block__task {
+  .items-block_task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
   }
 
-  .input-text {
+  .input_text {
     width: 226px;
   }
 
-  .delete__img {
+  .delete-button_img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
 
-  .delete__img:hover {
+  .delete-button_img:hover {
     transform: rotateZ(0);
   }
   
   /* Completed */
-  .items-block_task__completed {
+  .completed_tasks .label {
     text-decoration: line-through;
     color: #888;
   }
   
   /* Edit Task */
-  .items__task {
+  .items_task {
     display: none;
   }
   
-  .edit-mode input[type=text] {
+  /* .edit-mode input[type=text] { */
+  .edit-mode .input_text {
     display: inline-block;
     width: 224px;
   }
   
-  .edit-mode label {
+  .edit-mode .label {
     display: none;
   }
