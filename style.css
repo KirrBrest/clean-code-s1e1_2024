@@ -1,5 +1,5 @@
 /* Basic Style */
-.page {
+  .page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -18,9 +18,9 @@
   }
   
   @media (max-width:768px) {
-  .hero { 
-    text-align: center;
-  }
+    .hero { 
+      text-align: center;
+    }
   }
   .content-wrapper {
     display: block;
@@ -89,7 +89,7 @@
     margin: 0 0 20px;
   }
 
- .add-item__task {
+  .add-item__task {
     width: 318px;
   }
   
@@ -98,7 +98,7 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
