@@ -28,6 +28,7 @@
   var deleteButton=document.createElement("button");//delete button
   var deleteButtonImg=document.createElement("img");//delete button image
   deleteButtonImg.className="delete__img";
+  deleteButtonImg.setAttribute("Alt", "delete");
   label.innerText=taskString;
   label.className="items-block__task task";
 
